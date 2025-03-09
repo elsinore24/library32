@@ -1,0 +1,29 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/admin/sounds": [
+		"src/routes/admin/sounds/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/admin/sounds/simple-test": [
+		"src/routes/admin/sounds/simple-test/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/admin/sounds/test": [
+		"src/routes/admin/sounds/test/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/library": [
+		"src/routes/+layout.ts"
+	],
+	"/library/admin": [
+		"src/routes/library/admin/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/rooms/library": [
+		"src/routes/rooms/library/+page.ts",
+		"src/routes/+layout.ts"
+	]
+}

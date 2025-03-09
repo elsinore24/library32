@@ -1,0 +1,2 @@
+# SPA fallback for the library app
+/library/*  /library/index.html  200

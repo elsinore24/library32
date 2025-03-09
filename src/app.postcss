@@ -1,0 +1,55 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-burton: 'IM Fell English SC', Georgia, serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+body {
+  font-family: var(--font-burton);
+  background-color: #0A0004;
+  color: #FFF5E6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  touch-action: manipulation;
+}
+
+/* Prevent pull-to-refresh on mobile */
+body {
+  overscroll-behavior: none;
+}
+
+/* Prevent text selection */
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection in specific elements */
+input, textarea {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Ensure all pages take up full viewport */
+.app, main {
+  min-height: 100vh;
+  min-height: 100dvh; /* Use dynamic viewport height when supported */
+  width: 100vw;
+  overflow: hidden;
+}
